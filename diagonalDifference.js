@@ -1,8 +1,8 @@
 function diagonalDifference(arr) {
     // Write your code here
-    sum1 = 0;
-    sum2 = 0;
-    difference = 0;
+    let sum1 = 0;
+    let sum2 = 0;
+    let difference = 0;
     for (let index = 0; index < arr.length; index++) {
         const element1 = arr[index][index];
         let reverse1 = (arr.length - 1) - index;
